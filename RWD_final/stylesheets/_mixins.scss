@@ -1,0 +1,13 @@
+//breakpoint
+
+@mixin pad {
+    @media(max-width:768px) {
+        @content
+    }
+}
+
+@mixin iphone {
+    @media(max-width:320px) {
+        @content
+    }
+}
