@@ -77,15 +77,15 @@
     }
 
     .chef-img {
-        background-image: url(assets/main_chef_brown.png);
+        background-image: url(../assets/main_chef_brown.png);
         width: 460px;
         margin-left: 42px;
         @include pad() {
-            background-image: url(assets/main_chef_brown.png);
+            background-image: url(../assets/main_chef_brown.png);
             width: 460px;
             margin-left: 42px;
             @include pad() {
-                background-image: url(assets/main_chef_brown_tablet.png);
+                background-image: url(../assets/main_chef_brown_tablet.png);
                 margin-left: 10px;
                 width: 373px;
                 background-position: left;
@@ -209,11 +209,11 @@
             }
 
             .form-map {
-                background-image: url(assets/Map.png);
+                background-image: url(../assets\Map.png);
                 min-width: 460px;
                 height: 386px;
                 @include pad() {
-                    background-image: url(assets/Map.png);
+                    background-image: url(../assets/Map.png);
                     min-width: 460px;
                     height: 386px;
                     @include pad() {
