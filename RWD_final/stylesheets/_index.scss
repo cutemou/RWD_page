@@ -84,18 +84,14 @@
             background-image: url(../assets/main_chef_brown.png);
             width: 460px;
             margin-left: 42px;
-            @include pad() {
-                background-image: url(../assets/main_chef_brown_tablet.png);
-                margin-left: 10px;
-                width: 373px;
-                background-position: left;
-            }
-            @include iphone() {
-                width: 320px;
-                height: 460px;
-                margin-left: 0px;
-                background-position: center center;
-            }
+        }
+        @include iphone() {
+            background-image: url(../assets/main_chef_brown_iphone.png);
+            min-width:0;
+            max-width: 320px;
+            min-height: 313px;
+            margin-left: 0px;
+            background-position: center center;
         }
         img {
             padding-left: 42px;

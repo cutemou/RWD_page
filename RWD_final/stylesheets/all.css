@@ -545,19 +545,12 @@ table {
   }
 }
 
-@media (max-width: 768px) and (max-width: 768px) {
+@media (max-width: 320px) {
   .chef .chef-img {
-    background-image: url(../assets/main_chef_brown_tablet.png);
-    margin-left: 10px;
-    width: 373px;
-    background-position: left;
-  }
-}
-
-@media (max-width: 768px) and (max-width: 320px) {
-  .chef .chef-img {
-    width: 320px;
-    height: 460px;
+    background-image: url(../assets/main_chef_brown_iphone.png);
+    min-width: 0;
+    max-width: 320px;
+    min-height: 313px;
     margin-left: 0px;
     background-position: center center;
   }
