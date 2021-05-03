@@ -78,11 +78,11 @@
     }
 
     .chef-img {
-        background-image: url(/assets/main_chef_brown.png);
+        background-image: url(assets/main_chef_brown.png);
         width: 460px;
         margin-left: 42px;
         @include pad() {
-            background-image: url(/assets/main_chef_brown_tablet.png);
+            background-image: url(assets/main_chef_brown_tablet.png);
             margin-left: 10px;
             width: 373px;
             background-position: left;
@@ -206,17 +206,17 @@
         }
 
         .form-map {
-            background-image: url(/assets/Map.png);
+            background-image: url(assets/Map.png);
             min-width: 460px;
             height: 386px;
             @include pad() {
-                background-image: url(/assets/Map_tablet.png);
+                background-image: url(assets/Map_tablet.png);
                 min-width: 363px;
                 height: 386px;
                 margin-left: 12px;
             }
             @include iphone() {
-                background-image: url(/assets/Map_phone.png);
+                background-image: url(assets/Map_phone.png);
                 min-width: 298px;
                 height: 386px;
                 margin-left: 0px;
