@@ -532,21 +532,29 @@ table {
 }
 
 .chef .chef-img {
-  background-image: url(/assets/main_chef_brown.png);
+  background-image: url(../assets/main_chef_brown.png);
   width: 460px;
   margin-left: 42px;
 }
 
 @media (max-width: 768px) {
   .chef .chef-img {
-    background-image: url(/assets/main_chef_brown_tablet.png);
+    background-image: url(../assets/main_chef_brown.png);
+    width: 460px;
+    margin-left: 42px;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 768px) {
+  .chef .chef-img {
+    background-image: url(../assets/main_chef_brown_tablet.png);
     margin-left: 10px;
     width: 373px;
     background-position: left;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) and (max-width: 320px) {
   .chef .chef-img {
     width: 320px;
     height: 460px;
@@ -555,61 +563,61 @@ table {
   }
 }
 
-.chef img {
+.chef .chef-img img {
   padding-left: 42px;
 }
 
-.chef .chef-content {
+.chef .chef-img .chef-content {
   margin: 81px 0 0 25px;
   max-width: 512px;
 }
 
 @media (max-width: 768px) {
-  .chef .chef-content {
+  .chef .chef-img .chef-content {
     margin: 49px 0 0 25px;
   }
 }
 
-.chef .chef-content p {
+.chef .chef-img .chef-content p {
   max-width: 410px;
 }
 
 @media (max-width: 768px) {
-  .chef .chef-content p {
+  .chef .chef-img .chef-content p {
     max-width: 330px;
   }
 }
 
 @media (max-width: 320px) {
-  .chef .chef-content p {
+  .chef .chef-img .chef-content p {
     max-width: 260px;
     padding-bottom: 30px;
   }
 }
 
 @media (max-width: 320px) {
-  .chef .chef-content br {
+  .chef .chef-img .chef-content br {
     display: none;
   }
 }
 
-.chef .chef-title {
+.chef .chef-img .chef-title {
   font-size: 20px;
 }
 
-.comment {
+.chef .comment {
   background-color: #efe9e7;
   color: #3d1101;
   padding-bottom: 50px;
 }
 
-.comment .comment-title {
+.chef .comment .comment-title {
   font-size: 24px;
   padding: 50px 0 32px 0;
   text-align: center;
 }
 
-.comment .comment-group {
+.chef .comment .comment-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -618,7 +626,7 @@ table {
 }
 
 @media (max-width: 320px) {
-  .comment .comment-group {
+  .chef .comment .comment-group {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -629,14 +637,14 @@ table {
   }
 }
 
-.comment .comment-group .comment-item {
+.chef .comment .comment-group .comment-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 @media (max-width: 320px) {
-  .comment .comment-group .comment-item {
+  .chef .comment .comment-group .comment-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -644,34 +652,34 @@ table {
   }
 }
 
-.comment .comment-group .comment-item img {
+.chef .comment .comment-group .comment-item img {
   border-radius: 50%;
   height: 67px;
   width: 67px;
 }
 
-.comment .comment-group .comment-item .comment-text {
+.chef .comment .comment-group .comment-item .comment-text {
   padding: 21px 0 0 13px;
   max-width: 220px;
 }
 
 @media (max-width: 768px) {
-  .comment .comment-group .comment-item .comment-text {
+  .chef .comment .comment-group .comment-item .comment-text {
     max-width: 155px;
   }
 }
 
-.comment .comment-group .comment-item .comment-text .comment-item-id {
+.chef .comment .comment-group .comment-item .comment-text .comment-item-id {
   padding-bottom: 21px;
 }
 
 @media (max-width: 320px) {
-  .comment .comment-group .comment-item .comment-text p {
+  .chef .comment .comment-group .comment-item .comment-text p {
     min-width: 220px;
   }
 }
 
-.comment .comment-group .comment-item .comment-text .comment-item-nickname {
+.chef .comment .comment-group .comment-item .comment-text .comment-item-nickname {
   padding: 16px 0 0 0px;
   font-size: 16px;
   color: rgba(61, 17, 0, 0.75);
@@ -681,31 +689,31 @@ table {
 }
 
 @media (max-width: 768px) {
-  .comment .comment-group .comment-item .comment-text .comment-item-nickname {
+  .chef .comment .comment-group .comment-item .comment-text .comment-item-nickname {
     padding: 16px 0 0 0px;
     min-width: 155px;
   }
 }
 
 @media (max-width: 320px) {
-  .comment .comment-group .comment-item .comment-text .comment-item-nickname {
+  .chef .comment .comment-group .comment-item .comment-text .comment-item-nickname {
     padding: 16px 0 0 0px;
     min-width: 220px;
   }
 }
 
-.form {
+.chef .form {
   background: rgba(250, 250, 250, 0.7);
 }
 
-.form .form-title {
+.chef .form .form-title {
   text-align: center;
   font-size: 24px;
   padding: 50px 0 38px 0;
   line-height: 30px;
 }
 
-.form .form-content {
+.chef .form .form-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -713,7 +721,7 @@ table {
 }
 
 @media (max-width: 320px) {
-  .form .form-content {
+  .chef .form .form-content {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;
@@ -722,31 +730,39 @@ table {
   }
 }
 
-.form .form-content .form-map {
-  background-image: url(/assets/Map.png);
+.chef .form .form-content .form-map {
+  background-image: url(../assets\Map.png);
   min-width: 460px;
   height: 386px;
 }
 
 @media (max-width: 768px) {
-  .form .form-content .form-map {
-    background-image: url(/assets/Map_tablet.png);
+  .chef .form .form-content .form-map {
+    background-image: url(../assets/Map.png);
+    min-width: 460px;
+    height: 386px;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 768px) {
+  .chef .form .form-content .form-map {
+    background-image: url(assets/Map_tablet.png);
     min-width: 363px;
     height: 386px;
     margin-left: 12px;
   }
 }
 
-@media (max-width: 320px) {
-  .form .form-content .form-map {
-    background-image: url(/assets/Map_phone.png);
+@media (max-width: 768px) and (max-width: 320px) {
+  .chef .form .form-content .form-map {
+    background-image: url(assets/Map_phone.png);
     min-width: 298px;
     height: 386px;
     margin-left: 0px;
   }
 }
 
-.form .form-content .form-group {
+.chef .form .form-content .form-map .form-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -758,13 +774,13 @@ table {
 }
 
 @media (max-width: 768px) {
-  .form .form-content .form-group {
+  .chef .form .form-content .form-map .form-group {
     max-width: 363px;
   }
 }
 
 @media (max-width: 320px) {
-  .form .form-content .form-group {
+  .chef .form .form-content .form-map .form-group {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     max-width: 300px;
@@ -773,7 +789,7 @@ table {
   }
 }
 
-.form .form-content .form-group label {
+.chef .form .form-content .form-map .form-group label {
   font-family: PingFangTC-Light;
   font-size: 14px;
   color: #3d1101;
@@ -781,18 +797,18 @@ table {
 }
 
 @media (max-width: 768px) {
-  .form .form-content .form-group label {
+  .chef .form .form-content .form-map .form-group label {
     padding-bottom: 12px;
   }
 }
 
 @media (max-width: 320px) {
-  .form .form-content .form-group label {
+  .chef .form .form-content .form-map .form-group label {
     max-width: 320px;
   }
 }
 
-.form .form-content .form-group .form-control {
+.chef .form .form-content .form-map .form-group .form-control {
   background: #ffffff;
   border: 1px solid #cccccc;
   -webkit-box-shadow: inset 0px 1px 0px 0px #ececec;
@@ -804,19 +820,19 @@ table {
 }
 
 @media (max-width: 768px) {
-  .form .form-content .form-group .form-control {
+  .chef .form .form-content .form-map .form-group .form-control {
     width: 363px;
     margin-bottom: 12px;
   }
 }
 
 @media (max-width: 320px) {
-  .form .form-content .form-group .form-control {
+  .chef .form .form-content .form-map .form-group .form-control {
     max-width: 300px;
   }
 }
 
-.form .form-content .form-group .form-button {
+.chef .form .form-content .form-map .form-group .form-button {
   max-width: 460px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -827,12 +843,12 @@ table {
 }
 
 @media (max-width: 320px) {
-  .form .form-content .form-group .form-button {
+  .chef .form .form-content .form-map .form-group .form-button {
     max-width: 300px;
   }
 }
 
-.form .form-content .form-group .form-button .submit-button {
+.chef .form .form-content .form-map .form-group .form-button .submit-button {
   height: 32px;
   width: 70px;
   background: #f56c23;
@@ -842,7 +858,7 @@ table {
   line-height: 32px;
 }
 
-.form .form-content .form-group .form-button .cancel-button {
+.chef .form .form-content .form-map .form-group .form-button .cancel-button {
   margin-right: 11px;
   height: 32px;
   width: 70px;
@@ -853,7 +869,7 @@ table {
   line-height: 32px;
 }
 
-.form .form-content .radio {
+.chef .form .form-content .form-map .radio {
   margin: 12px 0 34px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -865,7 +881,7 @@ table {
   min-width: 460px;
 }
 
-.form .form-content .radio .radio-control {
+.chef .form .form-content .form-map .radio .radio-control {
   max-width: 108px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1100,7 +1116,7 @@ table {
 }
 
 .goods .card .card-img {
-  background-image: url(/assets/product_1.png);
+  background-image: url(../assets/product_1.png);
   max-width: 220px;
   height: 120px;
 }
