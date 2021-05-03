@@ -205,7 +205,7 @@
         //     border-color: transparent transparent #f69;
         // }
         .card-img {
-            background-image: url( assets/product_1.png);
+            background-image: url(assets/product_1.png);
             max-width: 220px;
             height: 120px;
             @include iphone() {
